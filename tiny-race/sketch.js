@@ -1,10 +1,7 @@
-let racerXs = [30, 30, 30, 30];
+let racerXs = [30, 45, 30, 30];
 let startY = 50;
 let yStep = 60;
 let finishX = 560;
-
-racerXs[0];
-
 
 function setup() {
   createCanvas(600, startY + yStep * racerXs.length);
@@ -14,7 +11,7 @@ function draw() {
   background(240);
 
  
-  fill(200, 200, 255);
+ 
   rect(200, 0, 100, height);
 
   line(finishX, 0, finishX, height);
